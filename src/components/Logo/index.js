@@ -7,8 +7,6 @@ const LogoWrapper = styled.div`
   align-items: center;
 `
 const LogoImg = styled.div`
-width: 100%;
-height: 100%;
   
   img {
     width: 79%;

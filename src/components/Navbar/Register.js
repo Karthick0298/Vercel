@@ -8,7 +8,7 @@ const LinksWrapper = styled.ul`
   display: flex;
   height: 100%;
   list-style: none;
-  font-family: var(--font-sans);
+  font-family: sans-serif;
   align-item: center;
 `;
 

@@ -13,13 +13,13 @@ const LinksWrapper = styled.ul`
   margin: 0;
   padding: 0;
   display: flex;
-  height: 80%;
+  height: 594px;
   list-style: none;
   background-color: #fff;
   width: 100%;
   flex-direction: column;
   position: fixed;
-  top: 110px;
+  top: 100px;
   left: 0;
   overflow-y: scroll;
 `;
@@ -31,7 +31,7 @@ const LinkItem = styled.li`
   font-weight: 500;
   font-size: 16px;
   display: flex;
-  font-family: var(--font-sans);
+  font-family: sans-serif;
   border-bottom: 1px solid #eaeaea;
   align-items: center;
 `;
@@ -41,9 +41,9 @@ const LinkButton = styled.li`
   justify-content: center;
   width: 100%;
   color: #666;
-  font-size: .875rem;
+  font-size: .885rem;
   display: flex;
-  font-family: var(--font-sans);
+  font-family: sans-serif;
 `;
 
 const LinkButton1 = styled.li`
@@ -53,14 +53,14 @@ const LinkButton1 = styled.li`
   color: #fff;
   font-size: .875rem;
   display: flex;
-  font-family: var(--font-sans);
+  font-family: sans-serif;
 `;
 
 const Link = styled.a`
   text-decoration: none;
   color: inherit;
   font-size: inherit;
-  font-family: var(--font-sans);
+  font-family: sans-serif;
 `;
 
 const Marginer = styled.div`

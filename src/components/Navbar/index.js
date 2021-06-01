@@ -14,14 +14,22 @@ const NavbarContainer = styled.div`
    box-shadow: inset 0 -1px 0 0 rgba(0,0,0,0.1); 
    display: flex;
    align-item: center;
-   position: fixed;
+   background-color:#fff;
+   position: sticky;
+   top:0;
+   z-index:101;
+   background-color: hsla(0,0%,100%,0.8);
+    backdrop-filter: saturate(180%) blur(5px);
 `;
 const HeaderHeader = styled.div`
    display: flex;
    width: 1048px;
    margin: auto;
-   padding-left: 24px;
+   padding-left: 55px;
    padding-right: 24px;
+   @media (max-width: 768px) {
+      padding-left: 13px;
+    }
 `;
 const HeaderOne = styled.div`
    display: flex;

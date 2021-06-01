@@ -9,7 +9,7 @@ const LinkItem = styled.li`
   align-items: center;
   justify-content: center;
   display: flex;
-  font-family: var(--font-sans);
+  font-family: sans-serif;
 `;
 
 const Link = styled.a`
